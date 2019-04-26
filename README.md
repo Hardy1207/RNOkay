@@ -170,8 +170,8 @@ android {
                 sessionId: sessionId, // Received from firebase messaging
                 appPNS: instanceID,
                 pageTheme: { // Page Theme customization, if you don't want customization: pageTheme: null
-                    actionBarTitle: "YOUR_ACTION_BAR_TITLE"
-                    actionBarBackgroundColor: 5, 
+                    actionBarTitle: "YOUR_ACTION_BAR_TITLE",
+                    actionBarBackgroundColor: 5,
                     actionBarTextColor: 10,
                     buttonTextColor: 15,
                 }
@@ -192,7 +192,7 @@ android {
             pubPss: pubPssBase64, // public Pss key https://github.com/Okaythis/okay-example/wiki/Mobile-Client-Settings
             installationId: "9990", // installationId https://github.com/Okaythis/okay-example/wiki/Mobile-Client-Settings
             pageTheme: { // Page Theme customization, if you don't want customization: pageTheme: null. All property with color is int.
-               actionBarTitle: "YOUR_ACTION_BAR_TITLE"
+               actionBarTitle: "YOUR_ACTION_BAR_TITLE",
                actionBarBackgroundColor: 5,
                actionBarTextColor: 10,
                buttonTextColor: 15,
